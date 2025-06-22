@@ -1,0 +1,5 @@
+outs:
+- md5: a10b5bbaa95163351c89e14f479a77ee
+  size: 40803
+  hash: md5
+  path: telegram_ecommerce_data_sample.jsonl
