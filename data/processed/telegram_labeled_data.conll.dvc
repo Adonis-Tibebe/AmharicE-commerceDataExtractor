@@ -1,0 +1,5 @@
+outs:
+- md5: 0995f1808f85a4705518db476cf00dc6
+  size: 104054
+  hash: md5
+  path: telegram_labeled_data.conll
