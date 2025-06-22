@@ -1,0 +1,4 @@
+[core]
+    remote = localremote
+['remote "localremote"']
+    url = file:///C:/Users/adoni/Desktop/KAIM COURSE/DATA/DVC-week4

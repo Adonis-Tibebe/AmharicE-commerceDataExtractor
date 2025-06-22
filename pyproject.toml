@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=45", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "amharic-ecommerce-extractor"
+version = "0.1.0"
+description = "A toolkit for scraping and labeling Amharic e-commerce Telegram data."
+authors = [
+    { name="Adoniyas Tibebe", email="adatibebe12@gmail.com" }
+]
+requires-python = ">=3.8"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.black]
+line-length = 88
+target-version = ['py38']
+
+[tool.pytest.ini_options]
+minversion = "6.0"
+addopts = "-ra -q"
+testpaths = [
+    "tests/unit",
+    "tests/integration"
+]
