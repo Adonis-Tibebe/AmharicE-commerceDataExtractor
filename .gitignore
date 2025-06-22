@@ -164,3 +164,8 @@ logs/
 # Temporary files
 *.tmp
 *.temp
+
+# Data files
+/data/
+!/data/*.dvc
+!/data/*README.md
