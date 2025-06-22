@@ -59,7 +59,8 @@ def remove_emojis_from_text(
     """
     df = df.copy()
     df[text_col] = df[text_col].apply(
-        lambda s: emoji.replace_emoji(s, replace=""))
+        lambda s: emoji.replace_emoji(s, replace="") if isinstance(s, str) else s
+    )
     return df
 
 def fix_nbsp(text: str) -> str:
