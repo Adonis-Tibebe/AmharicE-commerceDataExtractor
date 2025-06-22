@@ -151,12 +151,6 @@ cython_debug/
 # macOS
 .DS_Store
 
-# Data files
-data/raw/*
-data/processed/*
-!data/raw/.gitkeep
-!data/processed/.gitkeep
-
 # Logs
 logs/
 *.log
@@ -165,7 +159,10 @@ logs/
 *.tmp
 *.temp
 
-# Data files
-/data/
-!/data/*.dvc
+# Ignore everything in the data directory...
+/data/*
+# ...except .dvc files anywhere inside data, .gitkeep files, and README files if needed.
+!/data/**/*.dvc
+!/data/**/*.gitkeep
 !/data/*README.md
+
