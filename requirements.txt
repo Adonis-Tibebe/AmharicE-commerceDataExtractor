@@ -1,3 +1,4 @@
+accelerate==1.8.1
 aiohappyeyeballs==2.6.1
 aiohttp==3.12.13
 aiohttp-retry==2.9.1
@@ -33,10 +34,12 @@ configobj==5.0.9
 contourpy==1.3.2
 cryptography==45.0.4
 cycler==0.12.1
+datasets==3.6.0
 debugpy==1.8.14
 decorator==5.2.1
 defusedxml==0.7.1
 dictdiffer==0.9.0
+dill==0.3.8
 diskcache==5.6.3
 distro==1.9.0
 dotenv==0.9.9
@@ -51,6 +54,7 @@ dvc-studio-client==0.21.0
 dvc-task==0.40.2
 emoji==2.14.1
 entrypoints==0.4
+evaluate==0.4.4
 executing==2.2.0
 fastjsonschema==2.21.1
 filelock==3.18.0
@@ -59,7 +63,7 @@ flufl.lock==8.2.0
 fonttools==4.58.4
 fqdn==1.5.1
 frozenlist==1.7.0
-fsspec==2025.5.1
+fsspec==2025.3.0
 funcy==2.0
 gitdb==4.0.12
 GitPython==3.1.44
@@ -71,6 +75,7 @@ httpx==0.28.1
 huggingface-hub==0.33.0
 hydra-core==1.3.2
 idna==3.10
+imageio==2.37.0
 iniconfig==2.1.0
 ipykernel==6.29.5
 ipython==9.3.0
@@ -80,6 +85,7 @@ isoduration==20.11.0
 iterative-telemetry==0.0.10
 jedi==0.19.2
 Jinja2==3.1.6
+joblib==1.5.1
 json5==0.12.0
 jsonpointer==3.0.0
 jsonschema==4.24.0
@@ -96,6 +102,8 @@ jupyterlab_server==2.27.3
 jupyterlab_widgets==3.0.15
 kiwisolver==1.4.8
 kombu==5.5.4
+lazy_loader==0.4
+lime==0.2.0.1
 markdown-it-py==3.0.0
 MarkupSafe==3.0.2
 matplotlib==3.10.3
@@ -104,6 +112,7 @@ mdurl==0.1.2
 mistune==3.1.3
 mpmath==1.3.0
 multidict==6.5.0
+multiprocess==0.70.16
 nbclient==0.10.2
 nbconvert==7.16.6
 nbformat==5.10.4
@@ -119,7 +128,9 @@ pandas==2.3.0
 pandocfilters==1.5.1
 parso==0.8.4
 pathspec==0.12.1
+peft==0.15.2
 pillow==11.2.1
+pip-install-test==0.5
 platformdirs==4.3.8
 pluggy==1.6.0
 prometheus_client==0.22.1
@@ -128,6 +139,7 @@ propcache==0.3.2
 psutil==7.0.0
 pure_eval==0.2.3
 pyaes==1.6.1
+pyarrow==20.0.0
 pyasn1==0.6.1
 pycparser==2.22
 pydantic==2.11.7
@@ -157,9 +169,13 @@ rsa==4.9.1
 ruamel.yaml==0.18.14
 ruamel.yaml.clib==0.2.12
 safetensors==0.5.3
+scikit-image==0.25.2
+scikit-learn==1.7.0
+scipy==1.16.0
 scmrepo==3.3.11
 semver==3.0.4
 Send2Trash==1.8.3
+seqeval==1.2.2
 setuptools==80.9.0
 shellingham==1.5.4
 shortuuid==1.0.13
@@ -170,14 +186,16 @@ sniffio==1.3.1
 soupsieve==2.7
 sqltrie==0.11.2
 stack-data==0.6.3
-sympy==1.14.0
+sympy==1.13.1
 tabulate==0.9.0
 Telethon==1.40.0
 terminado==0.18.1
+threadpoolctl==3.6.0
+tifffile==2025.6.11
 tinycss2==1.4.0
 tokenizers==0.21.1
 tomlkit==0.13.3
-torch==2.7.1
+torch==2.6.0
 tornado==6.5.1
 tqdm==4.67.1
 traitlets==5.14.3
@@ -195,6 +213,8 @@ wcwidth==0.2.13
 webcolors==24.11.1
 webencodings==0.5.1
 websocket-client==1.8.0
+wheel==0.45.1
 widgetsnbextension==4.0.14
+xxhash==3.5.0
 yarl==1.20.1
 zc.lockfile==3.0.post1
