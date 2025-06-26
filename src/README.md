@@ -2,11 +2,25 @@
 
 This directory contains the main source code for the project.
 
-- `services/` - Service modules (e.g., Telegram scrapper)
-- `utils/` - Utility functions
+## Structure
 
-Each module is documented with inline comments and docstrings.
+- `services/`  
+  Contains service modules, such as:
+  - `telegram_scrapper.py`: Module for establishing a connection with the Telegram server and scraping data from channels.
 
-**List of SUbfolder content**
-- `services/` - contains telegram_scrapper.py which is the module for establishing connection with telegram server and scrapping data
-- `utils/` - contains util.py which is a basic utility module providing function like data cleaning, normalization, tokenizatin etc... 
+- `utils/`  
+  Utility functions for data processing, including:
+  - `utils.py`: Functions for data cleaning, normalization, tokenization, and other helper routines.
+
+- `models/`  
+  Model-related code, including:
+  - `ner_model.py`: Functions for loading, saving, and running NER models and pipelines.
+
+- `core/`  
+  Core training and evaluation logic, including:
+  - `train.py`: Functions for fine-tuning and evaluating NER models.
+
+## Notes
+
+- Each module is documented with inline comments and docstrings.
+- Designed for modularity and reuse
