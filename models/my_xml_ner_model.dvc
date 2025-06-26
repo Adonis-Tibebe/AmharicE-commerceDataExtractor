@@ -1,0 +1,6 @@
+outs:
+- md5: 435a6d8d8802ee252e2bdd0a914ea6b8.dir
+  size: 1132030880
+  nfiles: 6
+  hash: md5
+  path: my_xml_ner_model
