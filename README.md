@@ -8,6 +8,10 @@ A Python project for scraping, preprocessing, and labeling Amharic e-commerce da
 - Data cleaning and normalization
 - Hashtag extraction
 - Data labeling workflow for NER
+- Model FineTuning
+- Model Comparison and Interpretation
+- Model Interpretation (SHAP and LIME)
+- Vendor ScoreBoard Generation for business discision
 
 ## Installation
 
@@ -26,7 +30,7 @@ See the `notebooks/` directory for example workflows and the `src/` directory fo
 ## Project Structure
 
 - `src/` - Source code modules
-- `notebooks/` - Jupyter notebooks for data Ingestion, Normalization,Preprocessing and labeling
+- `notebooks/` - Jupyter notebooks for data Ingestion, Normalization,Preprocessing and labeling, Model finetuning, model comparison, Model interpretaton, verndor scoreboard creation
 - `data/` - Raw and processed data
 - `tests/` - Unit and integration tests
 - `config/` - Configuration files
